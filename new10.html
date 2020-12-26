@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src="scripts.js"></script>
+</head>		
+	<body onload="ajaxListAllRegions()">
+			<div class="topnav">
+				<a href="#"></a>	
+				<select id="table_select" name="table_select" onchange=select_fn(this.value)>
+				  <option value="district">District Wise</option>
+				  <option value="cases_time_series">Time Series</option>
+				  <option value="statewise">State Status</option>
+				  <option value="tested">Testing Data</option>
+				</select>
+			</div>
+		<div class="body-wrap">
+		
+			<div class="content-wrapper">
+				
+				<br>
+				<div class="card" id="card1">	
+					<p id="demo">
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	
+</html>
