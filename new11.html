@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="styles.css">
-<script src="scripts10.js"></script>
+
 </head>		
 	<body onload="ajaxListAllRegions()">
 			<div class="topnav">
@@ -18,12 +18,23 @@
 			<div class="content-wrapper">
 				
 				<br>
+				<div class="card" id="cardplot" >	
+					<div style="width:90%;">
+						<canvas id="canvas"></canvas>
+					</div>
+				</div>
+				<br>
 				<div class="card" id="card1">	
 					<p id="demo">
 					</p>
 				</div>
+				
+				
 			</div>
 		</div>
+		<script src="https://www.chartjs.org/dist/2.9.4/Chart.min.js"></script>
+<script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+<script src="scripts11.js"></script>
 	</body>
 	
 	
